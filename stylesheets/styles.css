@@ -85,7 +85,6 @@ a {
   overflow-x: auto;
   padding: 0;
   white-space: nowrap;
-
 }
 .thumbnail-image{
   display:block;
@@ -112,6 +111,31 @@ a {
   padding: 4px 10px;
 
 }
+.next-button{
+  left: 90%;
+  position: absolute;
+  top: 50%;
+}
+.next-button-text{
+  background:rgb(96,125,139);
+  border-color: rgb(202,238,255);
+  border-style: solid;
+  color:white;
+  font-size: 36px;
+}
+.prev-button{
+  position: absolute;
+  right: 70%;
+  top: 50%;
+}
+.prev-button-text{
+  background:rgb(96,125,139);
+  border-color: rgb(202,238,255);
+  border-style: solid;
+  color:white;
+  font-size: 36px;
+}
+
 @media all and (min-width: 768px) {
   .main-content {
     flex-direction: row;
