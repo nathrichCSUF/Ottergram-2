@@ -1,3 +1,6 @@
+//Author: Nathaniel Richards nathrich@3@csu.fullerton.edu CWID 891101883
+//CPSC 349 Assignment #2: Visual Effects
+//Due 9/16/2019
 var DETAIL_IMAGE_SELECTOR = "[data-image-role=\"target\"]";
 var DETAIL_TITLE_SELECTOR = "[data-image-role=\"title\"]";
 var THUMBNAIL_LINK_SELECTOR = "[data-image-role=\"trigger\"]";
